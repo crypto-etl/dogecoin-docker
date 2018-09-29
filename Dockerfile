@@ -6,4 +6,4 @@ RUN apt-get install -y bsdmainutils automake autoconf
 WORKDIR /opt
 RUN wget https://github.com/dogecoin/dogecoin/releases/download/v1.10.0/dogecoin-1.10.0-linux64.tar.gz
 RUN tar -xvzf dogecoin-1.10.0-linux64.tar.gz
-WORKDIR /opt/dogecoin-1.10.0-linux64
+WORKDIR /opt/dogecoin-1.10.0
